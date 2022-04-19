@@ -6,7 +6,7 @@ import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
 import { Provider } from "./Context/context";
 
 const client = new ApolloClient({
-  uri: "http://localhost:4000/graphql",
+  uri: "https://protected-springs-68965.herokuapp.com/graphql",
   cache: new InMemoryCache(),
 });
 
